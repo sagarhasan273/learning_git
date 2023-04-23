@@ -29,8 +29,9 @@
 ```
    git status
 ```
+[Good to use it]
 ```
-   git commit -m "Initial commit" [Good to use it]
+   git commit -m "Initial commit"
 ```
 ```
    git config --global core.editor "code --wait"
@@ -39,11 +40,13 @@
 ```
    git add index.html
 ```
+[To add all]
 ```
-   git add -A [To add all]
+   git add -A 
 ```
+[Good to use it]
 ```
-   git commit -m “Initial commit” [Good to use it]
+   git commit -m “Initial commit” 
 ```
 ### If git commit create a problemPress I and write “INITIAL COMMIT” + Esc + : + w + q
 
