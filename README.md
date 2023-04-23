@@ -12,72 +12,72 @@
    git config --global user.email sagarhasan273@gmail.com
 ```
 ```
-$ git config --global user.email
+   git config --global user.email
 ```
 ### Init Command:
 ```
-$ git init 
+   git init 
 ```
 ```
-$ ls -lart
+   ls -lart
 ```
 ```
-$ git status
+   git status
 ```
 ```
-$ git commit -m "Initial commit" [Good to use it]
+   git commit -m "Initial commit" [Good to use it]
 ```
 ```
-$ git config --global core.editor "code --wait"
+   git config --global core.editor "code --wait"
 ```
 ### Untracked:
 ```
-$ git add index.html
+   git add index.html
 ```
 ```
-$ git add -A [To add all]
+   git add -A [To add all]
 ```
 ```
-$ git commit -m “Initial commit” [Good to use it]
+   git commit -m “Initial commit” [Good to use it]
 ```
 ### If git commit create a problemPress I and write “INITIAL COMMIT” + Esc + : + w + q
 
 ### Unmodified & Modified:
 [if mistakenly gets updated]
 ```
-$ git checkout index.html 
+   git checkout index.html 
 ```
 ```
-$ git checkout -f
+   git checkout -f
 ```
 ### Staged:
 [show all commit messeges]
 ```
-$ git log 
+   git log 
 ```
 ```
-$ git log -p -1
+   git log -p -1
 ```
 [compare with your saved file and after editing file]
 ```
-$ git diff 
+   git diff 
 ```
 [ will only show changes to files in the "staged" area.]
 ```
-$ git diff --staged 
+   git diff --staged 
 ```
 ```
-$ git commit -a -m "adding waste.html"
+   git commit -a -m "adding waste.html"
 ```
  [remove from staged area]
 ```
-$ git rm --cached waste.html
+   git rm --cached waste.html
 ```
 [to delete]
 ```
-$ git rm waste.html 
+   git rm waste.html 
 ```
-$ git commit -a -m "deleting waste.html"
+   git commit -a -m "deleting waste.html"
 ```
 
 ### .gitignore
@@ -90,63 +90,63 @@ $ git commit -a -m "deleting waste.html"
 
 ### echo "# learning-git" >> README.md
 ```
-git init
+   git init
 ```
 ```
-git add README.md
+   git add README.md
 ```
 ```
-git commit -m "first commit"
+   git commit -m "first commit"
 ```
 ```
-git branch -M main
+   git branch -M main
 ```
 ```
-git remote add origin https://github.com/sagarhasan273/learning-git.git
+   git remote add origin https://github.com/sagarhasan273/learning-git.git
 ```
 ```
-git push -u origin main
+   git push -u origin main
 ```
 ### push an existing repository from the command line
 ```
-git remote add origin https://github.com/sagarhasan273/learning-git.git
+   git remote add origin https://github.com/sagarhasan273/learning-git.git
 ```
 ```
-git branch -M main
+   git branch -M main
 ```
 ```
-git push -u origin main
+   git push -u origin main
 ```
 ```
-git pull origin main
+   git pull origin main
 ```
 ### Branch:
 ```
-$ git branch main
+   git branch main
 ```
 ```
-$ git branch
+   git branch
 ```
 ```
-$ git checkout main
+   git checkout main
 ```
 ```
-$ git merge main
+   git merge main
 ```
 ```
-$ git checkout -b mainlite
+   git checkout -b mainlite
 ```
 ### Other:
 ```
-$ explorer filename
+   explorer filename
 ```
 ```
-$ start filename
+   start filename
 ```
 ### If you failed to push some refs to:
 ```
-$ git pull --rebase origin main/master
+   git pull --rebase origin main/master
 ```
 ```
-$ git push -f origin branch-name
+   git push -f origin branch-name
 ```
