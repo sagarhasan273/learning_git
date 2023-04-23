@@ -133,8 +133,9 @@
 ```
    git branch main
 ```
+[change branch name]
 ```
-   git branch
+   git branch -m old-name new-name
 ```
 ```
    git checkout main
