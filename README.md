@@ -1,3 +1,7 @@
+![Screenshot of my project](https://github.com/sagarhasan273/learning_git/blob/master/git_command.png)
+
+
+
 ## <p align="center">Git Bash Command</p>
 
 ### Configuring Username and Email in git:
