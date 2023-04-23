@@ -1,8 +1,9 @@
 ## <p align="center">Git Bash Command</p>
 
 ### Configuring Username and Email in git:
-$ git config --global user.name sagarhasan273
-
+```sh
+   git config --global user.name sagarhasan273
+   ```
 $ git config --global user.name
 
 $ git config --global user.email sagarhasan273@gmail.com
