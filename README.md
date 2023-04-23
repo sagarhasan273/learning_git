@@ -1,7 +1,8 @@
 ## <p align="center">Git Bash Command</p>
 
 ### Configuring Username and Email in git:
-```
+
+``` css
    git config --global user.name sagarhasan273
    ```
 ```
@@ -76,6 +77,7 @@
 [to delete]
 ```
    git rm waste.html 
+```
 ```
    git commit -a -m "deleting waste.html"
 ```
