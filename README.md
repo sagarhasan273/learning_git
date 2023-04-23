@@ -150,3 +150,11 @@
 ```
    git push -f origin branch-name
 ```
+### To see a list of all branches in the repository:
+```
+   git branch -a
+```
+###  To switch to a branch:
+```
+   git checkout my-branch
+```
