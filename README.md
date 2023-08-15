@@ -168,3 +168,11 @@
 ```
    git checkout my-branch
 ```
+
+### To Clone
+```
+   git clone [repo name or link]
+```
+```
+   git clone --single-branch -b [branch-name] [repo name or link]
+```
